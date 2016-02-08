@@ -1,0 +1,13 @@
+#class file
+*.class
+
+#document file
+*.pdf
+
+#Package file #
+*.jar
+*.war
+*.ear
+
+
+
