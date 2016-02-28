@@ -1,5 +1,5 @@
 public class Node {
-	Node next = nil;
+	Node next = null;
 	int data;
 
 	public Node(int d) {
@@ -16,3 +16,4 @@ public class Node {
 		n.next = end;
 	}
 }
+

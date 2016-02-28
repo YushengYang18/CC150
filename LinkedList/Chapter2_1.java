@@ -1,5 +1,5 @@
 /*
-Write code to remove duplicates from an unsorted linked list. 
+Write code to remove duplicates from an unsorted linked list.
 FOLLOW UP
 How would you solve this problem if a temporary buffer is not allowed?
 SOLUTION
@@ -11,13 +11,13 @@ public class Chapter2_1 {
 	}
 	//hashtable solution O(n)
 	public void removeDuplicate(Node node) {
-		Hashtable hs = new Hashtable();
+		Hashtable hs = new HashTable();
 		Node previousNode = null;
 		while(node != null) {
 			if(hs.containsKey(node.data)) {
 				previousNode.next = node.next;
 			} else {
-				hs.put(n.data, true);
+				hs.put(node.data, true);
 				previous = n;
 			}
 			node = node.next;
